@@ -4,7 +4,7 @@ Slow down streams. Useful for simulating limited bandwidth.
 
 ## Example
 
-    var TurtleStream = require('../turtlestream/lib/TurtleStream.js')
+    var TurtleStream = require('turtlestream')
     var http = require('http')
 
     http.createServer(function(req,res){
