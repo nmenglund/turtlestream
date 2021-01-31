@@ -1,16 +1,18 @@
 {
   "name": "turtlestream",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Stream class for slowing down streams.",
   "homepage": "http://github.com/nmenglund/turtlestream",
   "license": "MIT",
   "author": "Nils Magnus Englund <nme@stepone.no>",
   "scripts": {
-    "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "main": "lib/TurtleStream.js",
   "devDependencies": {
-    "babel": "^5.8.23"
+    "@types/node": "^14.14.22",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
   }
 }
